@@ -1,0 +1,9 @@
+{
+	"name": "mission100adebatch4backup0795",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "957c9b0e-17f5-4fd8-bf43-b6c8a9109254",
+		"tenantId": "1555917f-08b1-4a94-a7bb-a7893b4b2705"
+	}
+}
