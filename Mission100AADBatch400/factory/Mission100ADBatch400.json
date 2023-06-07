@@ -1,0 +1,9 @@
+{
+	"name": "Mission100ADBatch400",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2f4165cc-c138-431e-b619-280d26a29ead",
+		"tenantId": "acca9bb9-f31d-4488-90ee-e229ba6e43a1"
+	}
+}

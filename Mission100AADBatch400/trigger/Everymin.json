@@ -1,0 +1,31 @@
+{
+	"name": "Everymin",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Ingestion_sqldb_customer",
+					"type": "PipelineReference"
+				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "copy_to_customer folder",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2023-06-06T13:39:00Z",
+				"endTime": "2023-06-07T13:39:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
