@@ -1,0 +1,9 @@
+{
+	"name": "KellyCRM",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "78c3b6a4-06a4-47e7-b43b-d26cf10850b8",
+		"tenantId": "1555917f-08b1-4a94-a7bb-a7893b4b2705"
+	}
+}
