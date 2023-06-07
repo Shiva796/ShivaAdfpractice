@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Mission100ADBatch400"
+		},
+		"ADLS_LS_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_Param_LS_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=mission100adbatch4server.database.windows.net;Initial Catalog=missionad100DB;User ID=@{linkedService().userName};Password=@{linkedService().password}"
+		},
+		"SQL_DB_LS_connectionString": {
+			"value": ""
+		}
+	}
+}
